@@ -1,0 +1,3 @@
+[submodule "jvyterm"]
+	path = jvyterm
+	url = https://github.com/jvyden420/jvyterm
