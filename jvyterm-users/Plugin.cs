@@ -7,11 +7,11 @@ namespace jvyterm_users
     public class Plugin
     {
         public static void init() {
+            pluginHandler.addCommand("logout");
             login(true);
-            
         }
 
-        public static void logout() { logout(); }
+        public static void logout() { login(); }
 
         public static void login(bool isinit = false) {
             logger.log("Login initialized. Prompting login.", logger.logType.silent);
